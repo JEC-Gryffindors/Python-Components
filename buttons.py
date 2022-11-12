@@ -1479,6 +1479,270 @@ list_of_buttons=["""<!-- HTML !-->
 .button-42:hover {
   box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
 }""",
+"""<!-- HTML !-->
+<button class="button-43" role="button">Button 43</button>
+
+/* CSS */
+.button-43 {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-43:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+  .button-43 {
+    padding: 1rem 2rem;
+  }
+}""",
+"""<!-- HTML !-->
+<button class="button-44" role="button">Button 44</button>
+
+/* CSS */
+.button-44 {
+  background: #e62143;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  padding: .8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-44:active,
+.button-44:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+  outline: 0;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+}""",
+"""<!-- HTML !-->
+<button class="button-45" role="button">Button 45</button>
+
+/* CSS */
+.button-45 {
+  align-items: center;
+  background-color: #FFE7E7;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #D33A2C;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.button-45:active,
+.button-45:hover,
+.button-45:focus {
+  outline: 0;
+}
+
+
+.button-45:active {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.button-45:hover {
+  background-color: #FFE3E3;
+  border-color: #FAA4A4;
+}
+
+.button-45:active:hover,
+.button-45:focus:hover,
+.button-45:focus {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}""",
+"""<!-- HTML !-->
+<button class="button-46" role="button">Button 46</button>
+
+/* CSS */
+.button-46 {
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.26);
+  border: 1px solid #DFDFDF;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 28px;
+  max-width: 100%;
+  padding: 14px 22px;
+  text-decoration: none;
+  transition: all .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-46:active,
+.button-46:hover {
+  outline: 0;
+}
+
+.button-46:hover {
+  background-color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+  .button-46 {
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
+  }
+}""",
+"""<!-- HTML !-->
+<button class="button-47" role="button">Button 47</button>
+
+/* CSS */
+.button-47 {
+  align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 56px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 24px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}""",
+"""<!-- HTML !-->
+<button class="button-48" role="button"><span class="text">Button 48</span></button>
+
+/* CSS */
+.button-48 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-48:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #EBEBEB;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.button-48:after {
+  background-color: #FFFFFF;
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+}""",
 """
 ]
 
