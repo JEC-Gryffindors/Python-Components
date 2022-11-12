@@ -2346,4 +2346,11 @@ list_of_buttons=["""<!-- HTML !-->
     line-height: 2rem; /* 32px */
   }
 }"""]
+splited = []
+
+for i in list_of_buttons:
+    css = i.split("<!-- HTML !-->")[1].split("/* CSS */")
+    splited.append(css)
+
+print(splited)
 
