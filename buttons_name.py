@@ -1,1 +1,1 @@
-name_of_buttons=["""sky_blue""","""white_blue""","""middle_blue""","""round_blue""",]
+name_of_buttons=["""sky_blue""","""white_blue""","""middle_blue""","""round_blue""","""white""","""grey""","""white_black""","""whitish""",]
